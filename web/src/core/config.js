@@ -3,7 +3,7 @@
  */
 
 const config = {
-  appName: '鹿名国际',
+  appName: '鹿名管理后台',
   appLogo: 'http://lumingguoji.com/logo_center.svg',
   showViteLogo: false
 }
