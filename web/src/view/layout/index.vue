@@ -88,7 +88,7 @@
             </keep-alive>
           </transition>
         </router-view>
-        <BottomInfo />
+        <!-- <BottomInfo /> -->
         <setting />
       </el-main>
     </el-container>
