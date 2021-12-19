@@ -7,7 +7,7 @@ aliyun-oss:
   base-path: yourBasePath
 autocode:
   transfer-restart: true
-  root: C:\Users\NKUCC\Code\cadmin
+  root: /usr/local/docker/nginx/html/
   server: /server
   server-api: /api/v1/autocode
   server-initialize: /initialize
@@ -83,7 +83,7 @@ mysql:
   config: charset=utf8mb4&parseTime=True&loc=Local
   db-name: lm
   username: root
-  password: "13787718369"
+  password: "xxxx"
   max-idle-conns: 0
   max-open-conns: 0
   log-mode: ""
@@ -124,8 +124,8 @@ tencent-cos:
   region: ap-shanghai
   secret-id: xxxxxxxx
   secret-key: xxxxxxxx
-  base-url: https://gin.vue.admin
-  path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+  base-url:
+  path-prefix:
 timer:
   start: true
   spec: '@daily'
@@ -139,7 +139,7 @@ timer:
 zap:
   level: info
   format: console
-  prefix: '[github.com/flipped-aurora/gin-vue-admin/server]'
+  prefix: ''
   director: log
   showLine: true
   encode-level: LowercaseColorLevelEncoder
